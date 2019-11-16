@@ -41,7 +41,6 @@ export const showWindow = (styles, title) => (dispatch) => {
         title
     };
     dispatch(addWindow(data));
-    debugger
     setTimeout(() => {
         dispatch(clearWindow(data.id))
     }, 3000)
@@ -49,6 +48,5 @@ export const showWindow = (styles, title) => (dispatch) => {
 
 export const addWindow = (object) => ({type: ADD_WINDOW, object});
 export const clearWindow = (id) => ({type: CLEAR_WINDOW, id});
-
 
 export default reducer;

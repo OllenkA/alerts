@@ -17,8 +17,8 @@ const MainContent = (props) => {
                     {al.title}
                 </button>))}
         </div>
-
-        <div className='popUp'>
+        <p> Hi, my dear friend!!!</p>
+        <div className='popUpContainer'>
             {props.popUpAlerts.length >= 1 ?
                 props.popUpAlerts.map((pop, i) => {
                     return <div key={i} className='pop' style={pop.styles}>
