@@ -1,0 +1,10 @@
+.description {
+    padding-left: 15px;
+}
+
+.line {
+    height: 5px;
+    width: 60%;
+    margin-left: 20%;
+    background-color: black;
+}
